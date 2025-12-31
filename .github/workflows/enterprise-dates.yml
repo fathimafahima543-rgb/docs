@@ -20,7 +20,7 @@ permissions:
 jobs:
   open_enterprise_issue:
     name: Enterprise date updater
-    if: github.repository == 'github/docs-internal'
+    if: github.repository == 'github/docs-internal' || github.repository == 'fathimafahima543-rgb/docs'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository code
